@@ -1,6 +1,6 @@
 # DexViewTool
 
-> Various view specific methods for application I use.
+> Various view specific methods for application I use.""
 
 ## Installation
 
@@ -19,9 +19,9 @@ Or install it yourself as:
     $ gem install dex_view_tool
 
 ## Usage
-
-TODO: Write usage instructions here
-
+```ruby
+DexViewTool::Renderer.copyright 'Dex Kuo','All rights reserved'
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
